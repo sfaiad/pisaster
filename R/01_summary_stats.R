@@ -14,4 +14,3 @@ head(pisaster_data)
 
 ## calculate mean counts across all years, sites, and plots
 mean_count <- mean(pisaster_data$count)
-

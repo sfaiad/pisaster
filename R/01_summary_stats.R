@@ -14,3 +14,15 @@ head(pisaster_data)
 
 ## calculate mean counts across all years, sites, and plots
 mean_count <- mean(pisaster_data$count)
+
+## I need help! Steps to create a reprex
+
+##here is the data for Gist
+dput(pisaster_data[1:10, ])
+
+##loading librarys to create a reprex using Addins
+library(shiny)
+library(miniUI)
+library(reprex)
+
+

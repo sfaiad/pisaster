@@ -7,7 +7,7 @@ library("here")
 data_dir <- here("data")
 
 ## load data file
-readRDS(file.path(data_dir, "pisaster_data.Rds"))
+pisaster_data <- readRDS(file.path(data_dir, "pisaster_data.Rds"))
 
 ## peek at the data
 head(pisaster_data)
